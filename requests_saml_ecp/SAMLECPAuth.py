@@ -47,7 +47,7 @@ class SAMLECPAuth(AuthBase):
     # Headers required for authentication to IdP
     _idp_request_headers = {
         'Accept': '*/*',
-        'Content-Type': 'text/html; charset=utf-8'
+        'Content-Type': 'text/xml; charset=utf-8'
     }
 
     # Headers required for assertion to SP
